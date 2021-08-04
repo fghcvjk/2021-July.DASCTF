@@ -1,0 +1,5 @@
+FROM vulhub/java:7u21-jdk
+COPY . /usr/src
+WORKDIR /usr/src
+RUN  useradd ctf && su ctf 
+CMD sh target/bin/webapp

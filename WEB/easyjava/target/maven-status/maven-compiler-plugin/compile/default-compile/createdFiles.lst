@@ -1,0 +1,4 @@
+launch/Main.class
+security/SafeObjectInputStream.class
+servlet/HelloServlet.class
+servlet/EvilServlet.class
